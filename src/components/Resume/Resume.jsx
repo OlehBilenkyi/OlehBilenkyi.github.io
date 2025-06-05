@@ -1,5 +1,5 @@
 import React from "react";
-import { resume } from "../data/resume";
+import { resume } from "../../data/resume";
 
 const SkillBar = ({ skill, level }) => (
   <div className="mb-4">

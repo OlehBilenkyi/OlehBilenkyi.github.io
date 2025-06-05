@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { projects } from "../data/projects";
-import { ProjectCard } from "./ProjectCard";
+import { ProjectCard } from "../../data/projects";
 
 const categories = ["Все", "Веб", "Мобильные", "Дизайн"];
 

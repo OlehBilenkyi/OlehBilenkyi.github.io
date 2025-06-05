@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
-import { Portfolio } from "./components/Portfolio";
-import { Resume } from "./components/Resume";
-import { Footer } from "./components/Footer";
+import { Header } from "./components/Header/Header";
+import { Hero } from "./components/Hero/Hero";
+import { Portfolio } from "./components/Portfolio/Portfolio";
+import { Resume } from "./components/Resume/Resume";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
